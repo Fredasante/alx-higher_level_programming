@@ -1,0 +1,13 @@
+#!/usr/bin/python3
+"""Module 9-student
+Defining a student.
+"""
+
+
+class Student:
+    """Dedines a student.
+    Public instance attributes:
+        -first_name
+        -last_name
+        -age
+    IN

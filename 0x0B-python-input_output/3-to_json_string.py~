@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+"""Module 3-to_json_string
+Object is converted into its json representation.
+"""
+
+
+def to_json_string(my_obj):
+    """Converts object/string to its
+    json representation.
+    Args:
+        -my_obj: string to serialize
+    Returns:
+        -the json representation
+    """
+    return json.dumps(my_obj)
