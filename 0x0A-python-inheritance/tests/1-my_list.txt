@@ -1,0 +1,47 @@
+The ''1-my_list'' module
+========================
+
+Import function:
+>>> MyList = __import__('1-my_list').MyList
+
+Begin Testing:
+>>> list1 = MyList()
+>>> print(list1)
+[]
+>>> list1.print_sorted()
+[]
+>>> list1.append(2)
+>>> list1.append(2)
+>>> list1.append(2)
+>>> print(list1)
+[2, 2, 2]
+>>> list1.print_sorted()
+[2, 2, 2]
+
+>>> list2 = MyList()
+>>> list2.append(78)
+>>> print(list2)
+[78]
+>>> list2.print_sorted()
+[78]
+>>> list2.append(-98)
+>>> list2.append(111)
+>>> print(list2)
+[78, -98, 111]
+>>> list2.print_sorted()
+[-98, 78, 111]
+>>> print(list2)
+[78, -98, 111]
+
+>>> list3 = MyList()
+>>> list3.append(90)
+>>> list3.append(23)
+>>> list3.append(90)
+>>> list3.append(54)
+>>> list3.append(23)
+>>> print(list3)
+[90, 23, 90, 54, 23]
+>>> list3.print_sorted()
+[23, 23, 54, 90, 90]
+>>> print(list3)
+[90, 23, 90, 54, 23]
