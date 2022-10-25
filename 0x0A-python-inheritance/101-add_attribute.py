@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+!/usr/bin/python3
 """Module 101-add_attribute
 Adds a new attribute to an object if it’s possible.
 """
